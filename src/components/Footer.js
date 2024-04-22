@@ -1,12 +1,16 @@
 import React from "react"
 import small_logo from "../images/small_logo.png"
+import './Footer.css'
 
 const Footer = () => {
     return(
         <footer>
             <section>
             <div>
-                <img src={small_logo} />
+                <img
+                 src={small_logo} 
+                 alt="smalllogo"
+                 />
             </div>
             <div>
                 <h3>Document Navigation</h3>
