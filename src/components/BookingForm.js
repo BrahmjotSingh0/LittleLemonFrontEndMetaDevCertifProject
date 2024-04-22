@@ -11,9 +11,15 @@ const BookingForm = (props) => {
    const [times, setTimes] = useState("")
 
    const handleSumbit = (e) => {
-   e.preventDefault();
-   props.submitForm(e);
-   };
+    e.preventDefault();
+    const formData = {
+        date: date,
+        times: times,
+        guests: guests,
+        occasion: occasion
+    };
+    props.submitForm(formData);
+};
 
    const handleChange = (e) => {
     setDate(e);

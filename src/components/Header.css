@@ -1,0 +1,52 @@
+.main-header {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    margin-top: 80px; /* Add space to avoid overlapping with navbar */
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header-info {
+    flex: 1;
+  }
+  
+  .header-info h2 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+  }
+  
+  .header-info h3 {
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  .header-info p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: black;
+  }
+  
+  .header-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .header-image {
+    flex: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+    }
+  }
+  
