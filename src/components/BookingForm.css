@@ -4,6 +4,7 @@ header {
   }
   
   form {
+    padding-top: 10vh;
     max-width: 400px;
     margin: 0 auto;
   }
@@ -41,3 +42,12 @@ header {
     margin-top: 5px;
   }
   
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    -moz-appearance: textfield;
+  }
