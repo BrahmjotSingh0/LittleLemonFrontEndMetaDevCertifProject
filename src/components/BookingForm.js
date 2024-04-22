@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-
+import './BookingForm.css';
 
 
 const BookingForm = (props) => {
